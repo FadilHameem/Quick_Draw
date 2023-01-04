@@ -1,0 +1,52 @@
+.main_header{
+  color:white;
+}
+
+h1{
+  color:gold;
+}
+
+body{
+  font-weight: bolder;
+  font-family: 'Times New Roman', serif;
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:250px;
+    box-shadow:5px 5px 5px red;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px green;}
+
+}
+
+#score{
+    font-size: larger;
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+#timer{
+    font-size: larger;
+    float: right;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#sketch_to_be_drawn{
+    color:darkred;
+    font-size: large;
+    font-weight: bolder;
+
+}
